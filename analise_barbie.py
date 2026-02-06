@@ -7,8 +7,6 @@ import seaborn as sns
 
 
 CSV_PATH = "barbie_filmes.csv"
-
-# Pasta onde os gráficos serão salvos
 FIGS_DIR = "figs"
 os.makedirs(FIGS_DIR, exist_ok=True)
 
@@ -185,4 +183,5 @@ plt.close()
 print(f"Gráfico salvo em: {path_fig3}")
 
 print("\n=== FIM DA ANÁLISE  ===")
+
 
